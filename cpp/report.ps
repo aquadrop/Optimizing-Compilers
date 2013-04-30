@@ -1,0 +1,11 @@
+report
+
+In this project, a optimization using Loop Invariant Code Motion is implemented. In order to achieve the purpose, I did the following analysis.
+
+First of all, a full analysis of reaching definitions are established. Base on that, I go to look for the loop invariants using the reaching definitions, which contains two steps, the "constant" loop invariants search and the "extended" loop invariants search. After serious test, I move to the code motion part. Based on the built user definition chains, I look for instructions that can be moved to the head by the four conditions listed in materials of the course. Node that the temporal registers can only reside in one block, the moving procedure does inserting the copy instructions and replacing the related temporal registers with pseudo registers.
+
+The engine provides correct instruction list yet the speedup is not as good as expected. Improvement is required.
+
+
+Jianwei Xu
+998755547
