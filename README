@@ -7,4 +7,6 @@ This is the project for ECE568, at UofT.
 - A script called exam.pl is provided to assist the test.
 - For instance, command "perl exam.pl mmult" will test the speedup on the case "mmult.tmp".
 
+https://github.com/aquadrop/OptimizingCompilers.git
+
 -Enjoy! 
